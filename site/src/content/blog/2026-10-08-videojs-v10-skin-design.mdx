@@ -4,8 +4,8 @@ description: 'The ideas behind Default, Neutral, and Compat, and the small desig
 authors: [sam-potts]
 ---
 
-import SkinComparison from '@/components/blog/SkinComparison';
-import PlyrComparison from '@/components/blog/PlyrComparison';
+import SkinComparison from '@/components/blog/SkinComparisonDemo.astro';
+import PlyrComparison from '@/components/blog/PlyrComparisonDemo.astro';
 import FrostedDemo from '@/components/blog/FrostedDemo.astro';
 import AlignmentDemo from '@/components/blog/AlignmentDemo.astro';
 import TimeDemo from '@/components/blog/TimeDemo.astro';
@@ -20,7 +20,7 @@ When I started thinking about the skins for Video.js v10, I had a few ideas I’
 
 Plyr’s design changed over the years. The early light skin kept the controls in a separate bar below the video. By version 2, they sat over the video itself, with a gradient providing contrast. Plyr version 3 refined that direction with a simpler central play button and a settings menu.
 
-<PlyrComparison client:visible />
+<PlyrComparison />
 
 Video.js gave me a chance to explore that direction. It also posed a broader question. A player can end up on almost any website, so how much personality should its design have?
 
@@ -28,7 +28,7 @@ The skins share the same attention to detail, but make different tradeoffs betwe
 
 The comparison below also includes Scaffold: functional controls with minimal styling, intended as a starting point for your own skin. It gives you a foundation to restyle when you want to take the design in your own direction.
 
-<SkinComparison client:visible />
+<SkinComparison />
 
 ## Default: A little opinionated
 
