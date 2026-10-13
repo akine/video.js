@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [@videojs/core@10.1.1] - 2026-10-13
+
+### 🚀 Features
+- *(site)* Add a comparison component ([#9406](https://github.com/videojs/video.js/pull/9406)) by [@sampotts](https://github.com/sampotts)
+
+### 🐛 Bug Fixes
+- *(sandbox)* Ignore unknown source query values ([#9404](https://github.com/videojs/video.js/pull/9404)) by [@sampotts](https://github.com/sampotts)
+- *(skin)* Show elapsed time on compact neutral players ([#9484](https://github.com/videojs/video.js/pull/9484)) by [@sampotts](https://github.com/sampotts)
+- *(react)* Render crossorigin attributes before hydration ([#9403](https://github.com/videojs/video.js/pull/9403)) by [@sampotts](https://github.com/sampotts)
+- *(skin)* Keep media text colors when merging Tailwind classes ([#9491](https://github.com/videojs/video.js/pull/9491)) by [@sampotts](https://github.com/sampotts)
+
+### 💼 Other
+- *(root)* Watch only development outputs in pnpm dev ([#9483](https://github.com/videojs/video.js/pull/9483)) by [@sampotts](https://github.com/sampotts)
+
+### 🚜 Refactor
+- *(site)* Share one focus outline and popover ring ([#9405](https://github.com/videojs/video.js/pull/9405)) by [@sampotts](https://github.com/sampotts)
+
+### ⚙️ Miscellaneous Tasks
+- *(root)* Upgrade workspace dependencies ([#9482](https://github.com/videojs/video.js/pull/9482)) by [@sampotts](https://github.com/sampotts)
+
 ## [@videojs/core@10.1.0] - 2026-10-12
 
 ### 🚀 Features
@@ -2315,6 +2335,7 @@ All notable changes to this project will be documented in this file.
 * @decepulis made their first contribution in [#118](https://github.com/videojs/v10/pull/118)
 * @heff made their first contribution
 
+[@videojs/core@10.1.1]: https://github.com/videojs/video.js/compare/@videojs/core@10.1.0...@videojs/core@10.1.1
 [@videojs/core@10.1.0]: https://github.com/videojs/video.js/compare/@videojs/core@10.0.1...@videojs/core@10.1.0
 [@videojs/core@10.0.1]: https://github.com/videojs/v10/compare/@videojs/core@10.0.0...@videojs/core@10.0.1
 [@videojs/core@10.0.0]: https://github.com/videojs/v10/compare/@videojs/core@10.0.0-rc.5...@videojs/core@10.0.0
