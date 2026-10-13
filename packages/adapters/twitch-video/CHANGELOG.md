@@ -1,5 +1,20 @@
 # Changelog
 
+## [10.1.1](https://github.com/videojs/video.js/compare/@videojs/twitch-video@10.1.0...@videojs/twitch-video@10.1.1) (2026-10-13)
+
+
+### Miscellaneous Chores
+
+* **@videojs/twitch-video:** Synchronize videojs versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/media bumped to 10.1.1
+    * @videojs/utils bumped to 10.1.1
+
 ## [10.1.0](https://github.com/videojs/video.js/compare/@videojs/twitch-video@10.0.1...@videojs/twitch-video@10.1.0) (2026-10-12)
 
 
